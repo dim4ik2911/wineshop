@@ -1,3 +1,11 @@
+/* 
+transition 0.5s
+*/
+
+/* ------------------------------------------- */
+/*  BASIC SETUP */
+/* ------------------------------------------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,21 +13,88 @@
 }
 
 html {
-  background-color: #fff;
+  background-color: #faeeee;
   color: #000;
   font-family: "Taviraj", "Arial", sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
 }
+/* ------------------------------------------- */
+/* REUSABLE CONTENT */
+/* ------------------------------------------- */
 
 .row {
-  max-width: 1140px;
+  max-width: 1740px;
   margin: 0 auto;
 }
 
+/* ------------------------------------------- */
+/* HEADINGS */
+/* ------------------------------------------- */
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #faeeee;
+  font-size: 240%;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+/* ------------------------------------------- */
+/* BUTTONS */
+/* ------------------------------------------- */
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #560000;
+  border: 3px solid #340000;
+  color: #faeeee;
+  margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  background-color: #faeeee;
+  border: 3px solid #340000;
+  color: #340000;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #340000;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  border: 3px solid #340000;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 3px solid #340000;
+  color: #faeeee;
+}
+
+/* ------------------------------------------- */
+/* HEADER */
+/* ------------------------------------------- */
+
 header {
-  background-image: url(img/hero.jpg.jpg), linear-gradient(#29323c, #485563);
+  background-image: url(img/hero.jpg), linear-gradient(#29323c, #485563);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -27,12 +102,43 @@ header {
 
 .hero-text-box {
   position: absolute;
-  width: 1140px;
+  width: 1740px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-h1 {
-  margin: 0;
+.logo {
+  height: 150px;
+  width: auto;
+  float: left;
+  margin-top: 150px;
+  filter: brightness(95%);
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  color: #faeeee;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  font-weight: 300;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #faeeee;
 }
