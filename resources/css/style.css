@@ -112,14 +112,14 @@ header {
   height: 150px;
   width: auto;
   float: left;
-  margin-top: 150px;
+  margin-top: 165px;
   filter: brightness(95%);
 }
 
 .main-nav {
   float: right;
   list-style: none;
-  margin-top: 55px;
+  margin-top: 65px;
 }
 
 .main-nav li {
