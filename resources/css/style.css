@@ -203,3 +203,28 @@ header {
 .main-nav li a:active {
   border-bottom: 2px solid #faeeee;
 }
+
+/* ------------------------------------------- */
+/* BOTTLES */
+/* ------------------------------------------- */
+
+.bottles-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.bottles-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.bottle-photo {
+  width: 100%;
+  margin: 0;
+}
+
+.bottle-photo img {
+  width: 100%;
+  height: auto;
+}
