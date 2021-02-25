@@ -54,6 +54,7 @@ h1 {
   font-size: 240%;
   word-spacing: 4px;
   letter-spacing: 1px;
+  line-height: 130%;
 }
 
 h2 {
@@ -205,26 +206,46 @@ header {
 }
 
 /* ------------------------------------------- */
+/* FEATURES */
+/* ------------------------------------------- */
+
+.section-features .long-copy {
+  margin-bottom: 30px;
+}
+/* ------------------------------------------- */
 /* BOTTLES */
 /* ------------------------------------------- */
+
+.section-bottles {
+  padding: 0;
+}
 
 .bottles-showcase {
   list-style: none;
   width: 100%;
+  font-size: 0;
 }
 
 .bottles-showcase li {
   display: block;
   float: left;
-  width: 25%;
+  width: 20%;
 }
 
 .bottle-photo {
   width: 100%;
   margin: 0;
+  overflow: hidden;
 }
 
 .bottle-photo img {
+  background-color: #000;
+  opacity: 0.7;
   width: 100%;
   height: auto;
+  transition: opacity 0.5s;
+}
+
+.bottle-photo img:hover {
+  opacity: 1;
 }
