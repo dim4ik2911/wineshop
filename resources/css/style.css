@@ -37,7 +37,7 @@ html {
 /* ------------------------------------------- */
 
 .row {
-  max-width: 1740px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -204,29 +204,29 @@ header {
 
 .hero-text-box {
   position: absolute;
-  width: 1740px;
+  width: 1140px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .logo {
-  height: 150px;
+  height: 100px;
   width: auto;
   float: left;
-  margin-top: 165px;
+  margin-top: 25px;
   filter: brightness(95%);
 }
 
 .main-nav {
   float: right;
   list-style: none;
-  margin-top: 65px;
+  margin-top: 55px;
 }
 
 .main-nav li {
   display: inline-block;
-  margin-right: 80px;
+  margin-left: 20px;
 }
 
 .main-nav li a:link,
@@ -299,27 +299,31 @@ header {
   background-color: #faeeee;
 }
 
+.steps-box {
+  margin-top: 30px;
+}
+
 .steps-box:first-child {
   text-align: right;
-  padding-right: 10%;
-  margin-top: 30px;
+  padding-right: 3%;
 }
 
 .steps-box:last-child {
-  margin-top: 30px;
+  margin-top: 70px;
+  text-align: left;
+  padding-left: 3%;
 }
 
 .app-screen {
-  width: 40%;
+  width: 50%;
 }
 
 .work-step {
-  margin-top: 70px;
   margin-bottom: 50px;
 }
 
-.work-step p {
-  padding-top: 10px;
+.work-step:last-of-type {
+  margin-bottom: 80px;
 }
 
 .work-step div {
@@ -327,19 +331,18 @@ header {
   border: 2px solid #560000;
   display: inline-block;
   border-radius: 50%;
-  height: 55px;
-  width: 55px;
+  height: 54px;
+  width: 54px;
   text-align: center;
-  padding: 3px;
+  padding: 5px;
   float: left;
   font-size: 150%;
   margin-right: 25px;
 }
 
 .btn-app img {
-  height: 60px;
+  height: 50px;
   width: auto;
-  margin-top: 50px;
   margin-right: 10px;
 }
 
@@ -347,19 +350,15 @@ header {
 /* CITIES */
 /* ------------------------------------------- */
 
-.section-cities {
-  width: 1340px;
-  margin: 0 auto;
-}
-
 .section-cities img {
-  height: 150px;
-  width: auto;
+  width: 100%;
+  height: auto;
   margin-bottom: 15px;
 }
 
 .city-feature {
   margin-bottom: 5px;
+  margin-right: 10px;
 }
 
 .section-cities a:link,
