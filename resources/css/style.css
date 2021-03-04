@@ -125,8 +125,6 @@ h2:after {
   color: #db0202;
   font-size: 120%;
   margin-right: 10px;
-
-  /*align text and icons*/
   line-height: 120%;
   vertical-align: middle;
   margin-top: -3px;
@@ -204,10 +202,9 @@ header {
 
 .hero-text-box {
   position: absolute;
-  width: 1140px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 22%;
+  /* transform: translate(-105%, -50%); */
 }
 
 .logo {
@@ -588,3 +585,10 @@ footer p {
   text-align: center;
   margin-top: 20px;
 }
+
+/*check what causes white space on the right side */
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
