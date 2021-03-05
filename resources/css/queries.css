@@ -29,13 +29,6 @@
   section {
     padding: 60px 0;
   }
-  /* .row {
-    padding: 0 2%;
-  } */
-  /* .hero-text-box {
-    top: 35%;
-    left: 3%;
-  } */
   .main-nav li a:link,
   .main-nav li a:visited {
     font-size: 76%;
@@ -106,7 +99,7 @@
     margin: 0 0 4% 0;
   }
   .main-nav {
-    display: none;
+    display: none; /*main navigation fixing*/
   }
   h1 {
     font-size: 220%;
