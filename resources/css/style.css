@@ -12,13 +12,15 @@ transition 0.5s
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: rgb(250, 244, 244);
   color: #560000;
   font-family: "Taviraj", "Arial", sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 .clearfix {
