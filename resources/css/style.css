@@ -198,13 +198,13 @@ header {
   background-position: center;
   height: 100vh;
   background-attachment: fixed;
+  filter: brightness(90%);
 }
 
 .hero-text-box {
   position: absolute;
   top: 35%;
-  left: 22%;
-  /* transform: translate(-105%, -50%); */
+  left: 20%;
 }
 
 .logo {
@@ -586,7 +586,7 @@ footer p {
   margin-top: 20px;
 }
 
-/*check what causes white space on the right side */
+/* check what causes white space on the right side */
 /* * {
   background: #000 !important;
   color: #0f0 !important;
