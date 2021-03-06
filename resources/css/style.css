@@ -145,16 +145,16 @@ input[type="submit"] {
   font-weight: 300;
   text-decoration: none;
   border-radius: 200px;
-  -webkit-transition: color 0.5s;
-  -o-transition: color 0.5s;
-  transition: color 0.5s;
+  -webkit-transition: color 0.5s, background-color 0.5s;
+  -o-transition: color 0.5, background-color 0.5s;
+  transition: color 0.5s, background-color 0.5s;
 }
 
 .btn-full:link,
 .btn-full:visited,
 input[type="submit"] {
   background-color: #560000;
-  border: 3px solid #410000;
+  border: 3px solid #490000;
   color: rgb(250, 244, 244);
   margin-right: 15px;
 }
@@ -162,34 +162,34 @@ input[type="submit"] {
 .btn-ghost:link,
 .btn-ghost:visited {
   background-color: rgb(250, 244, 244);
-  border: 3px solid #410000;
-  color: #410000;
+  border: 3px solid #490000;
+  color: #490000;
 }
 
 .btn-signup:link,
 .btn-signup:visited {
   background-color: #fff;
-  border: 3px solid #410000;
-  color: #410000;
+  border: 3px solid #490000;
+  color: #490000;
 }
 
 .btn:hover,
 .btn:active,
 input[type="submit"]:hover,
 input[type="submit"]:active {
-  background-color: #410000;
+  background-color: #490000;
 }
 
 .btn-full:hover,
 .btn-full:active {
-  border: 3px solid #410000;
+  border: 3px solid #490000;
 }
 
 .btn-signup:hover,
 .btn-signup:active,
 .btn-ghost:hover,
 .btn-ghost:active {
-  border: 3px solid #410000;
+  border: 3px solid #490000;
   color: rgb(250, 244, 244);
 }
 
@@ -212,6 +212,7 @@ header {
 
 .hero-text-box {
   position: absolute;
+  width: 1140px;
   top: 35%;
   left: 20%;
 }
@@ -245,43 +246,13 @@ header {
   font-size: 90%;
   font-weight: 300;
   border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.5s;
+  transition: border-bottom 0.5s;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid rgb(250, 244, 244);
-}
-
-/* Sticky navi */
-.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  background-color: rgb(250, 244, 244);
-  box-shadow: 0 2px 2px #efefef;
-}
-
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
-  font-size: 80%;
-  color: #410000;
-  border-bottom: 1px solid transparent;
-}
-
-.sticky .main-nav li a:hover,
-.sticky .main-nav li a:active {
-  border-bottom: 1px solid #560000;
-}
-
-.main-nav {
-  margin-top: 16px;
-}
-
-.sticky .logo {
-  height: 60px;
-  margin: 2px 0;
 }
 
 /* ------------------------------------------- */
@@ -415,13 +386,13 @@ header {
 
 .section-cities a:hover,
 .section-cities a:active {
-  color: #410000;
+  color: #490000;
   font-weight: 400;
   border-bottom: 1px solid transparent;
 }
 
 .section-cities .city-feature:last-child:hover > .icon-small {
-  color: #410000;
+  color: #490000;
 }
 
 /* ------------------------------------------- */
@@ -503,7 +474,7 @@ cite img {
   font-size: 300%;
   margin-bottom: 10px;
   font-weight: 300;
-  color: #410000;
+  color: #490000;
   -webkit-box-shadow: 0 2px 2px #efefef;
   box-shadow: 0 2px 2px #efefef;
 }
