@@ -52,7 +52,7 @@
     margin-bottom: 60px;
   }
   .app-screen {
-    width: 75%;
+    width: 55%;
   }
   .icon-small {
     width: 17px;
@@ -148,13 +148,13 @@
     width: 40px;
     padding: 4px;
     margin-right: 15px;
-    font-size: 120%;
+    font-size: 100%;
   }
   .steps-box:first-child {
     text-align: center;
   }
   .app-screen {
-    width: 40%;
+    width: 30%;
   }
   .footer-nav,
   .social-links {
